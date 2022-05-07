@@ -1,0 +1,172 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Varela Round',
+        sans-serif;
+
+    background-image: url(src/img/bodybg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    max-height: 600px;
+    min-height: 600px;
+    background-image: url("src/img/tlo1.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.header__alignment {
+
+    background-color: white;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 0 20px gray;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    text-align: center;
+    padding: 0 20px 60px 20px;
+}
+
+.social__icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 30px;
+}
+
+section {
+    min-height: 600px;
+}
+
+.first__section {
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0 10%;
+    gap: 30px;
+}
+
+.first__section div {
+    background-color: white;
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 50%;
+}
+
+.first__section div span {
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 5px white;
+}
+
+.first__section div:hover {
+    /*margin-bottom: 10px;*/
+    transition: 0.5s;
+    box-shadow: 0 0 30px gray;
+}
+
+.first__section a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.second__section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.quote {
+    align-self: flex-end;
+    display: flex;
+    justify-items: center;
+    min-height: 100px;
+    padding: 40px;
+}
+
+.quote-img-left {
+    align-self: flex-end;
+}
+
+.quote-text {
+    align-self: center;
+    color: black;
+    padding: 0 30px;
+    font-size: 32px;
+}
+
+.quote-img-right {
+    align-self: flex-start;
+}
+
+.third__section {
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.third__section div span {
+    font-size: 32px;
+    line-height: 2.5;
+    color: #202020;
+    background-color: #2d2d2d;
+    text-shadow: -1px -1px 1px #111,
+        2px 2px 1px #363636;
+}
+
+.footer__content {
+    background-color: #2d2d2d;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    padding: 30px 0;
+}
+
+.map {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.map li {
+    padding: 0 20px;
+}
+
+.map li a {
+    text-decoration: none;
+    color: rgba(82, 82, 82);
+}
+
+.footer__bottom {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: rgba(82, 82, 82);
+}
+
+.circle {
+    border-radius: 50%;
+}
